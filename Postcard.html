@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+input {
+    margin-top: 1rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.border-bottom {
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.spacing {
+    padding: 1rem 10rem 0 0;
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.form {
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid;
+    font-family: georgia, serif;
+    border-color: #d7dade;
+    outline: none;
+}
+
+.botn {
+    padding: 1rem;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 1px solid #d7dade;
+}
+    </style>
+</head>
+
+<body>
+    <header class="flex">
+        <div>
+            <h1>My Post Card</h1>
+        </div>
+        <div>
+            <img src="https://assets.breatheco.de/apis/img/icon/4geeks.png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="flex">
+            <div class="spacing">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur rem cupiditate molestiae debitis qui voluptatem eius nostrum at ut sunt incidunt, assumenda quo unde reprehenderit dolorum delectus sequi ullam eum!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum ab, numquam facilis ipsa, aspernatur totam iure ut eveniet deserunt temporibus dolores sunt quisquam modi alias consequuntur quia vel iste voluptatem.</p>
+            </div>
+            <div class="">
+                <form action="">
+                    <input type="text" class="border-bottom form" placeholder="Name"><br><br>
+                    <input type="email" class="border-bottom form" placeholder="E Mail"><br><br>
+                    <input type="text" class="border-bottom form" placeholder="Comment">
+                </form>
+            </div>
+        </div>
+        <div class="text-center">
+            <input type="submit" value="Send my Post Card" class="botn">
+        </div>
+    </main>
+</body>
+
+</html>
